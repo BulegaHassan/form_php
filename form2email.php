@@ -19,7 +19,7 @@ if (filter_has_var(INPUT_POST, 'submit')) {
         } else {
         
             // Recepient email
-            $toEmail = 'hassanbulega@hasgotech.com';
+            $toEmail = 'name@example.com';
             $subject = 'Contact Request From ' . $name;
             $body = '<h2>Contact Request</h2>
                      <h4>Name</h4> <p>'. $name .'</p>
